@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Qwerty Keyboards</title>
+</head>
+<body>
+    <header class="barra">
+        <div class="logo">
+            <a class="logo__txt" href="#">
+                <p class="logo__txt-p">QWERTY<span class="logo__txt-p--g">_</span></p>
+                <p class="logo__txt-p">Keyboards</p>
+            </a>
+        </div>
+
+        <nav class="nav">
+            <a class="nav__a" href="index.html">Inicio</a>
+            <a class="nav__a" href="#">Productos</a>
+            <a class="nav__a" href="#">Nosotros</a>
+            <a class="nav__a" href="#">Contacto</a>
+        </nav>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>
+                <a class="nav__resp" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="nav__resp" href="#">Productos</a>
+            </li>
+            <li>
+                <a class="nav__resp" href="#">Nosotros</a>
+            </li>
+            <li>
+                <a class="nav__resp" href="#">Contacto</a>
+            </li>
+        </ul>
+
+        <div class="user">
+            <a class="fix" href="#">
+                <img class="user__cart" src="/img/carrito2.png" alt="imagen carrito">
+            </a>
+            <a class="fix" href="#">
+                <img class="user__img" src="/img/user.png" alt="imagen usuario">
+            </a>
+        </div>
+    </header>
+    <main class="product">
+        <img class="product__img" src="/img/keyboard.webp" alt="imagen teclado custom">
+
+        <div class="product__cont">
+            <h1 class="nombre">Odyssey 60% Custom</h1>
+            <p class="info desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita, dicta voluptates eveniet magni sunt quam provident blanditiis unde magnam ea saepe doloremque enim ab quas odio aliquid doloribus.</p>
+            <ul class="info-ul">
+                <li class="info-li desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li class="info-li desc">Sed expedita assumenda numquam quae eum soluta aut.</li>
+                <li class="info-li desc">veniam nemo quas, saepe, enim optio aspernatur quod.</li>
+            </ul>
+            <h2 class="tipo">Tipo de Switch</h2>
+            <select class="tipo-elegir">
+                <option disabled selected>--Seleccionar--</option>
+                <option value="red">Red (linear)</option>
+                <option value="blue">Blue (clicky)</option>
+                <option value="brown">Brown (tactile)</option>
+            </select>
+            <h2 class="precio">
+                $130.00
+                <span class="precio-off">$175.00</span>
+            </h2>
+            <button class="checkout">
+                <img class="cart" src="/img/carrito.png" alt="">
+                Añadir al carrito
+            </button>
+        </div>
+    </main>
+</body>
+</html>
